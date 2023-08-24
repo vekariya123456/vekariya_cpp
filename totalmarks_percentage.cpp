@@ -6,7 +6,7 @@ int main()
 {
     int math,sci,guj,total,per;
 
-    cout <<"enter phy marks=";
+    cout <<"enter math marks=";
     cin >> math;
 
     cout <<"enter sci marks=";

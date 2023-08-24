@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int t,b,h;
+    int area,b,h;
 
     cout<<"enter b value=";
     cin>>b;
@@ -11,7 +11,7 @@ int main()
     cout<<"Enter h value=";
     cin>>h;
 
-    t=(b*h)/2;
+    area=(b*h)/2;
 
-    cout<<"area of Triangal is:"<<t;
+    cout<<"area of Triangal is:"<<area;
 }
