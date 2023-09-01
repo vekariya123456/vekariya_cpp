@@ -24,18 +24,17 @@ void CALFUEL()
 }
 
 public:
-void FEEDINFO()
+FLIGHT(int n1,int n2)
 {
-    cout<<"Enter Flight NUmber=";
-    cin>>flight_number;
+    flight_number=n1;
+    Distance=n2;
     
-    cout<<"Enter Destination:";
-    cin.ignore();
-    getline(cin,Destination);
+    cout<<"Enter Flight Number="<<flight_number;
     
+    cout<<"\nEnter Destination:";
+    cin>>Destination;
     
-    cout<<"Enter Distance value=";
-    cin>>Distance;
+    cout<<"Enter Distance value="<<Distance;
     
     CALFUEL();
     
@@ -43,7 +42,7 @@ void FEEDINFO()
 
 void SHOWINFO()
 {
-    cout<<"\nFlight Number is="<<flight_number;
+    cout<<"\n\nFlight Number is="<<flight_number;
     cout<<"\nDestination Name is:"<<Destination;
     cout<<"\nDistance is:"<<Distance;
     cout<<"\nFuel Required:"<<fuel;
@@ -54,11 +53,10 @@ void SHOWINFO()
 
 int main()
 {
-    FLIGHT fl;
+    FLIGHT fl(2020,1200);
     
-    fl.FEEDINFO();
     fl.SHOWINFO();
-    
-    return 0;
+  
 }
+
 
