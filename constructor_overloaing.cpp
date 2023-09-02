@@ -22,11 +22,15 @@ class AREA
     
     AREA(int b,int h)
     {
-        cout<<"Area Of Triangal is:"<< (b * h)/2 ;
+        cout<<"Area Of Triangal is:"<< (b * h)/2;
+    }
+    AREA(string name)
+    {
+        cout<<"string name is:"<<name;
     }
 };
 
 int main()
 {
-    AREA area(20,30);
+    AREA area("vijay");
 }
