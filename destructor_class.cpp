@@ -31,7 +31,7 @@ class AREA
 
    ~AREA()
    {
-      cout<<"\nDestructor call";
+      cout<<"\n\nDestructor call";
    }
 
 
