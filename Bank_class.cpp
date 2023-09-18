@@ -20,7 +20,7 @@ class Bank
         if(amount>0)
         {
            balance +=  amount;
-           cout<<"Deposite Amount:" << amount << endl;
+           cout<<"Deposite Amount is:" << amount << endl;
            
         }
         else
@@ -57,6 +57,31 @@ int main()
 {
    string name;
    double acc;
+   int choice;
+   
+   while(true)
+   {
+       
+       
+       cout<< endl << "Option" << endl;
+       cout<<"1. DEPOSITE" << endl;
+       cout<<"2. Withdraw" << endl;
+       cout<<"3. Display Balance" << endl;
+       cout<<"4. Exit" << endl;
+
+       cout<<"Enter Your Choice" << endl;
+
+       cout<<"Enter Your Choice:"  << endl;
+       cin >> choice;
+
+       switch (choice)
+       {
+        case 1:
+
+           
+       }
+       
+   }   
 
 
 }
