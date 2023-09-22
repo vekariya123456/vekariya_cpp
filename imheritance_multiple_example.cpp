@@ -27,13 +27,12 @@ class Animal : protected Bird, public Fish
         cout<<"Animal Can:" << endl;
 
         fly();
-        Fish();
+        Swim();
     }
 };
 
 int main()
 {
     Animal ani;
-    ani.Alla
-    nimal();
+    ani.Allanimal();
 }
